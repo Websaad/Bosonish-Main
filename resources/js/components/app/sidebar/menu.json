@@ -25,6 +25,32 @@
         "permissions":"manage-users"
       },
       {
+        "title": "Incomes",
+        "active": false,
+        "to": "incomes",
+        "permissions":"manage-incomes"
+      }
+
+    ],
+    "icon" : {
+      "paths" : [
+        "M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+      ]
+    }
+  },
+  {
+    "title": "Settings",
+    "active": false,
+    "visible": true,
+    "permissions":"settings",
+    "submenu": [
+      {
+        "title": "Users",
+        "active": false,
+        "to": "settings.users",
+        "permissions":"manage-users"
+      },
+      {
         "title": "Roles",
         "active": false,
         "to": "settings.roles",
