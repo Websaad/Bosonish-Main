@@ -1,0 +1,9 @@
+.dropdown-menu-enter-active, .dropdown-menu-leave-active{
+    @apply transition-all ease-in-out duration-300
+}
+.dropdown-menu-enter, .dropdown-menu-leave-to{
+    @apply opacity-25 max-h-0
+}
+.dropdown-menu-enter-to, .dropdown-menu-leave{
+    @apply opacity-100 max-h-xl
+}

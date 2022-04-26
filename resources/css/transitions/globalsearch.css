@@ -1,0 +1,19 @@
+/* x-transition:enter="transition ease-out duration-200"
+x-transition:enter-start="opacity-0"
+x-transition:enter-end="opacity-100"
+x-transition:leave="transition ease-out duration-100"
+x-transition:leave-start="opacity-100"
+x-transition:leave-end="opacity-0" */
+
+.global-search-enter-active{
+    @apply transition ease-out duration-200
+}
+.global-search-leave-active{
+    @apply transition ease-out duration-100
+}
+.global-search-enter, .global-search-leave-to{
+    @apply opacity-0
+}
+.global-search-enter-to, .global-search-leave{
+    @apply opacity-100
+}

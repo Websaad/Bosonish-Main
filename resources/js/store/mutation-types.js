@@ -1,0 +1,31 @@
+// auth.js
+export const LOGOUT = 'LOGOUT'
+export const SAVE_TOKEN = 'SAVE_TOKEN'
+export const FETCH_USER = 'FETCH_USER'
+export const FETCH_USER_SUCCESS = 'FETCH_USER_SUCCESS'
+export const FETCH_USER_FAILURE = 'FETCH_USER_FAILURE'
+export const UPDATE_USER = 'UPDATE_USER'
+
+// lang.js
+export const SET_LOCALE = 'SET_LOCALE'
+
+// Two Factor Authentication Mutations
+export const TWO_FA_MUTATIONS = {
+  RESET: 'RESET',
+  GET: 'GET',
+  ENABLE: 'ENABLE',
+  DISABLE: 'DISABLE',
+  GENERATE: 'GENERATE',
+  REGENERATE: 'REGENERATE'
+}
+
+// ACL
+export const SET_USER_ACL = 'SET_USER_ACL'
+export const UPDATE_USER_ACL = 'RESET_USER_ACL'
+export const REMOVE_USER_ACL = 'REMOVE_USER_ACL'
+
+// Notification
+export const GET_USER_UNREAD_NOTIFICATIONS = 'GET_USER_UNREAD_NOTIFICATIONS'
+export const REMOVE_USER_NOTIFICATIONS = 'REMOVE_USER_NOTIFICATIONS'
+export const MARK_AS_READ = 'MARK_AS_READ'
+export const MARK_AS_UNREAD = 'MARK_AS_UNREAD'

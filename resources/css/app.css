@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./transitions/index.css";
+
+/* input check event */
+/* input[type="checkbox"]:checked + .permission_title {
+  color: black;
+} */

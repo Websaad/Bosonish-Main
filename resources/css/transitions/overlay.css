@@ -1,0 +1,23 @@
+/*
+Entering: "ease-in-out duration-500"
+From: "opacity-0"
+To: "opacity-100"
+Leaving: "ease-in-out duration-500"
+From: "opacity-100"
+To: "opacity-0" */
+
+.overlay-enter-active, .overlay-leave-active{
+    @apply ease-in-out duration-500
+}
+.overlay-enter{
+    @apply opacity-0
+}
+.overlay-enter-to{
+   @apply opacity-100
+}
+.overlay-leave-to{
+    @apply opacity-100
+}
+.overlay-leave{
+    @apply opacity-0
+}

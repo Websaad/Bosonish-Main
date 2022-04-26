@@ -1,0 +1,24 @@
+.slide-enter-active,.slide-leave-active {
+    @apply transform transition  duration-200 sm:duration-700;
+}
+.slide-enter {
+    @apply translate-x-full;
+}
+.slide-leave {
+    @apply translate-x-0;
+}
+.slide-enter-to {
+    @apply translate-x-0;
+}
+.slide-leave-to {
+    @apply translate-x-full;
+}
+.aside {
+	width: 60vw;
+	height: 100vh;
+	background: #fff;
+	color: white;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
