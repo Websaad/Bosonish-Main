@@ -19,11 +19,6 @@ export default [
   { path: '/cards', name: 'cards', component: page('cards.vue') },
   { path: '/buttons', name: 'buttons', component: page('buttons.vue') },
   { path: '/slideout', name: 'slideout', component: page('slideout.vue') },
-
-
-  { path: '/incomes', name: 'incomes', component: page('income/index.vue') },
-
-
   {
     path: '/components',
     component: page('components/index.vue'),

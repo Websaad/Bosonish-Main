@@ -26,8 +26,9 @@ class User extends Authenticatable implements JWTSubject , MustVerifyEmail
     use LogsActivity;
     use ActivityConfig;
 
-    protected $subjectColumn = 'name';
-    protected $logName = 'User';
+    public function logName(){
+        return 'User Log';
+    }
     /**
      * The attributes that are mass assignable.
      *
