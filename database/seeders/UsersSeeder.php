@@ -32,6 +32,6 @@ class UsersSeeder extends Seeder
             'remember_token' => Str::random(10),
         ])->roles()->attach(2);
 
-        User::factory()->times(100)->create();
+        User::factory()->times(10)->create();
     }
 }
